@@ -48,7 +48,7 @@ export default () => {
 
   const googleFontIdx = useMemo(() => {
     if (uploaded) return idx;
-    return idx === -1 ? 1147 : idx;
+    return idx === -1 ? 2 : idx;
   }, [uploaded, idx]);
 
   useEffect(() => {
