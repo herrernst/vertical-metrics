@@ -292,7 +292,7 @@ export default () => {
             <Slider
               min={0.5}
               max={3}
-              step={0.1}
+              step={0.05}
               value={lineHeight}
               onInput={(e) => setLineHeight(e.target.value)}
             />
