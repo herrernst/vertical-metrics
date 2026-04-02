@@ -217,6 +217,18 @@ export default () => {
               <td> {font.xHeight}</td>
             </tr>
           </table>
+
+          <table>
+                <tr>
+                  <td>yMax</td>
+                  <td>{font.head.yMax}</td>
+                </tr>
+                <tr>
+                  <td>yMin</td>
+                  <td>{font.head.yMin}</td>
+                </tr>
+          </table>
+
         </section>
 
         <section
