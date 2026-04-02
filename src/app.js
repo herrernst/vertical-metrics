@@ -7,7 +7,7 @@ import Main from './Main';
 
 const App = () => {
   const [font, setFont] = useState();
-  const [text, setText] = useState('Xxfg');
+  const [text, setText] = useState('ÀgçÖ');
   const [fontSize, setFontSize] = useState(200);
   const [lineHeight, setLineHeight] = useState(1);
 
